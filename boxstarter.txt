@@ -1,0 +1,14 @@
+Update-ExecutionPolicy Unrestricted
+Disable-UAC
+
+Disable-GameBarTips
+
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions
+
+CINST -y googlechrome
+choco install -y adobereader
+choco install -y winrar
+choco install -y office365business
+
+Enable-UAC
+Enable-MicrosoftUpdate
