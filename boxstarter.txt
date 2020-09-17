@@ -1,4 +1,3 @@
-Update-ExecutionPolicy Unrestricted
 Disable-UAC
 
 Disable-GameBarTips
